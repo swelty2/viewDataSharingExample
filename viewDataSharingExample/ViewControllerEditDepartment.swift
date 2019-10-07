@@ -19,8 +19,8 @@ class ViewControllerEditDepartment: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       // self.deptSegment.selectedSegmentIndex = self.deptIndex!
-        //dept = self.deptSegment.titleForSegment(at: self.deptIndex!)
+       self.deptSegment.selectedSegmentIndex = self.deptIndex!
+    dept = self.deptSegment.titleForSegment(at: self.deptIndex!)
         
             }
 

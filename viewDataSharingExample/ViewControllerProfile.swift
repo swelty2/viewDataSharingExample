@@ -58,21 +58,7 @@ print("viewDidLoad")
     }
 
     
-    override func viewWillAppear(_ animated: Bool) {
 
-        print("viewWillAppear")
-    }
-    override func viewWillDisappear(_ animated: Bool) {
-        print("viewWillDisappear")
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        print("viewDidAppear")
-        
-    }
-    override func viewDidDisappear(_ animated: Bool) {
-        print("viewDidDisappear")
-    }
     
     @IBAction func closeClick(_ sender: UIButton) {
         self.dismiss(animated: true) {
